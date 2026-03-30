@@ -24,8 +24,6 @@ Thumbs.db
 *.swp
 
 
-resultados/
-
 .env
 .env.local
 .ipynb_checkpoints/

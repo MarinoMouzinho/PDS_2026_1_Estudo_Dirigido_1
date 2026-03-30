@@ -16,5 +16,5 @@ def executar():
     plt.plot(n, sinal_sensor, label="Sensor (com ruído)")
     plt.legend()
     plt.title("Sensor Térmico")
-    plt.savefig("../resultados/sensor_termico.png")
+    plt.savefig("resultados/sensor_termico.png")
     plt.clf()

@@ -12,7 +12,7 @@ def executar():
 
     plt.stem(n, y_mem)
     plt.title("Sistema com Memória")
-    plt.savefig("../resultados/sistema_memoria.png")
+    plt.savefig("resultados/sistema_memoria.png")
     plt.clf()
 
     # sistema não causal
@@ -20,5 +20,5 @@ def executar():
 
     plt.stem(n, y_nc)
     plt.title("Sistema Não Causal")
-    plt.savefig("../resultados/sistema_nao_causal.png")
+    plt.savefig("resultados/sistema_nao_causal.png")
     plt.clf()

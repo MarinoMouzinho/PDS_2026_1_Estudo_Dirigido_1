@@ -12,7 +12,7 @@ def executar():
     plt.stem(n, x_deslocado, linefmt='r-', markerfmt='ro', label="Deslocado")
     plt.legend()
     plt.title("Deslocamento")
-    plt.savefig("../resultados/deslocamento.png")
+    plt.savefig("resultados/deslocamento.png")
     plt.clf()
 
     # inversão
@@ -22,5 +22,5 @@ def executar():
     plt.stem(n, x_inv, linefmt='r-', markerfmt='ro', label="Invertido")
     plt.legend()
     plt.title("Inversão")
-    plt.savefig("../resultados/inversao.png")
+    plt.savefig("resultados/inversao.png")
     plt.clf()
